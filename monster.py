@@ -1,6 +1,6 @@
 # Monster.py
-# Thorin Schmidt
-# 11/16/2016
+# Tyler Whitney
+# 11/18/2016
 
 ''' Monster Package '''
 from character import *
@@ -65,6 +65,82 @@ class Orc(Monster):
         super(Orc, self).__init__(name, maxHealth, speed, stamina, strength,
                                   intelligence, dexterity, numberOfPotions,
                                   inventory, aggression, awareness, fear)
+
+class Skunk(Monster):
+    ''' Skunk class '''
+    def __init__(self,
+                 name = "Pepe LePew",
+                 maxHealth = 2,
+                 speed = 15,
+                 stamina = 5,
+                 strength = 4,
+                 intelligence = 2,
+                 dexterity = 15,
+                 numberOfPotions = 0,
+                 inventory = [],
+                 aggression = 15,
+                 awareness = randint(1,9),
+                 fear = 60):
+        super(Skunk, self).__init__(name, maxHealth, speed, stamina, strength,
+                                  intelligence, dexterity, numberOfPotions,
+                                  inventory, aggression, awareness, fear)
+class Hunter(Monster):
+    ''' Hunter class '''
+    def __init__(self,
+                 name = "Shadow Hunter",
+                 maxHealth = 100,
+                 speed = 50,
+                 stamina = 50,
+                 strength = 20,
+                 intelligence = 30,
+                 dexterity = 15,
+                 numberOfPotions = 11,
+                 inventory = [],
+                 aggression = 40,
+                 awareness = randint(10,30),
+                 fear = 10):
+        super(Hunter, self).__init__(name, maxHealth, speed, stamina, strength,
+                                  intelligence, dexterity, numberOfPotions,
+                                  inventory, aggression, awareness, fear)
+class Dragon(Monster):
+    ''' Dragon class '''
+    def __init__(self,
+                 name = "Mag’ladroth",
+                 maxHealth = 200,
+                 speed = 70,
+                 stamina = 45,
+                 strength = 94,
+                 intelligence = 2,
+                 dexterity = 56,
+                 numberOfPotions = 0,
+                 inventory = [],
+                 aggression = 80,
+                 awareness = randint(40, 70),
+                 fear = 6):
+        super(Dragon, self).__init__(name, maxHealth, speed, stamina, strength,
+                                  intelligence, dexterity, numberOfPotions,
+                                  inventory, aggression, awareness, fear)
+
+class King(Monster):
+    ''' King class '''
+    def __init__(self,
+                 name = "Deposed King",
+                 maxHealth = 1000,
+                 speed = 500,
+                 stamina = 600,
+                 strength = 9000,
+                 intelligence = 654,
+                 dexterity = 349,
+                 numberOfPotions = 13,
+                 inventory = [],
+                 aggression = 167,
+                 awareness = randint(50,590),
+                 fear = 6):
+        super(King, self).__init__(name, maxHealth, speed, stamina, strength,
+                                  intelligence, dexterity, numberOfPotions,
+                                  inventory, aggression, awareness, fear)
+
+
 
 
 def random_monster():

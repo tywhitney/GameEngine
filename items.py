@@ -1,5 +1,5 @@
 # items.py
-# Thorin Schmidt
+# Tyler Whitney
 # 11/17/2016
 
 ''' base items for the game environment'''

@@ -1,5 +1,5 @@
 # character.py
-# Thorin Schmidt
+# Tyler Whitney
 # 11/16/2016
 
 ''' Module that contains our game's Character base class

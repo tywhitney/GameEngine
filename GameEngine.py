@@ -1,5 +1,5 @@
 # GameEngine.py
-# Thorin Schmidt
+# Tyler Whitney
 # 11/15/2016
 
 '''module that contains classes and functions to run a game'''
